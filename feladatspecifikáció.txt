@@ -1,0 +1,37 @@
+Leírás:
+
+Egy olyan Java nyelven írt alkalmazást készítek, amiben Factory Method, Decorator tervezési mintákat alkalmazva tudunk sorozatgyártani különböző autókat 
+(Elektromos,Benzines,Dízel,Gáz). A gyártás idejét lehet befolyásolni hogy milyen gyorsan guruljanak le az autók a szallagról (Pl. 1 másodpercenként gyártson 1 új autót) 
+illetve azt is be lehet állítai hogy egyszerre hány darabot gyártson az adott autóból.
+
+
+
+Hazsnálni kívánt eszközök:
+
+-tervezési minták:
+  -Decorator: Ezzel a tervezési mintával hozok létre kategóriákat a különböző autók között. Az elektromosnál például az akkumlátor életartam, Benzinesnél a káros anyag kibocsájtás .
+  -FactoryMethod: Ezzel a tervezési mintával valósítjuk meg azt, hogy több autót tudjunk legyártani rövid időn belül.
+
+-adatbázis:
+       - MySQL
+
+- Ablakok:
+       - Login
+       - Gyártás menü
+
+
+A program felépítése:
+
+Login: Az alkalmazás megnyitásakor ez az ablak nyílik meg először. 
+itt tud bejelentkezni a felhasználó. User vagy admin ként.
+
+Főmenü: Található rajta 2 textfield, 1 jlist és 1 button és pár label
+   - Textfieldek
+       - createMax - egy művelet alatt hány darab egyforma autót gyártson le .
+       - creatDelay - miliszekundumban tárolt késleltetési idő a gyártáshoz.
+   - JList
+       - van egy label ami kiírja eddig hány autó lett legyártva.
+       - ez alatt jelennek meg a legyártott autók.
+       
+   - Gomb 
+       - elindíthatjuk vele a gyártást.
