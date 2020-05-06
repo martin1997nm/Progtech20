@@ -34,6 +34,11 @@ CREATE TABLE `users` (
   `password` varchar(256) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+
+
+CREATE TABLE `log` (
+  `id` int(11) UNSIGNED NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 --
 -- A tábla adatainak kiíratása `users`
 --

@@ -3,7 +3,7 @@ package Beadando.Elektromos;
 import Beadando.Car;
 
 
-public class Tesla extends Car {
+public class TeslaModel3 extends Car {
 
     @Override
     public String GetMake() {
@@ -12,12 +12,12 @@ public class Tesla extends Car {
 
     @Override
     public String GetModel() {
-        return "Modell S";
+        return "Modell 3";
     }
 
     @Override
     public int GetSeats() {
-        return 4;
+        return 5;
     }
 
     @Override

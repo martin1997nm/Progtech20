@@ -3,24 +3,29 @@ package Beadando.Decorator;
 import Beadando.Car;
 
 
-public class Suv extends CarDecorator {
+public class TS extends CarDecorator {
  
     @Override
     public String GetMake() {
-        return super.GetMake()+" Toyota";
+        return super.GetMake();
     }
     
     @Override
     public String GetModel() {
-        return " CH-R";
+        return super.GetModel()+" T Sport";
+    }
+    
+    @Override
+    public int GetSeats() {
+        return 4;
     }
     
     @Override
     public int GetHorsePower() {
-        return 130;
+        return 192;
     }
     
-    public Suv(Car car) {
+    public TS(Car car) {
         super(car);
     }
 }

@@ -3,7 +3,7 @@ package Beadando.BelsoEgesu;
 import Beadando.Car;
 
 
-public class Toyota extends Car {
+public class ToyotaCelica extends Car {
 
     @Override
     public String GetMake() {
@@ -12,17 +12,17 @@ public class Toyota extends Car {
 
     @Override
     public String GetModel() {
-        return "CH-R";
+        return "Celica";
     }
 
     @Override
     public int GetSeats() {
-        return 5;
+        return 4 ;
     }
 
     @Override
     public int GetHorsePower() {
-        return 130;
+        return 140;
     }
     
 }
