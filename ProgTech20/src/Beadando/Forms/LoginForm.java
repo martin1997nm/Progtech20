@@ -2,10 +2,7 @@ package Beadando.Forms;
 
 import Beadando.Classes.SQL;
 
-/**
- *
- * @author Norbert Szucs
- */
+
 public class LoginForm extends javax.swing.JFrame {
 
     public SQL connection;

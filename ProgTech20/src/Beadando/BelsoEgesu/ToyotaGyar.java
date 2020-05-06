@@ -8,7 +8,7 @@ public class ToyotaGyar extends Factory{
 
     @Override
     public Car Make() {
-        return new Toyota();
+        return new ToyotaCelica();
     }
     
 }

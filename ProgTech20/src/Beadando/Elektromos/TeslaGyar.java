@@ -8,7 +8,7 @@ public class TeslaGyar extends Factory{
 
     @Override
     public Car Make() {
-        return new Tesla();
+        return new TeslaModel3();
     }
     
 }

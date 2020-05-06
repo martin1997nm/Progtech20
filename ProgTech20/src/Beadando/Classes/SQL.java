@@ -13,7 +13,7 @@ import java.util.logging.Logger;
 
 public class SQL {
 
-    String dbURL = "jdbc:mysql://localhost/ProgTech20";
+    String dbURL = "jdbc:mysql://localhost/progtech20";
     String username = "root";
     String password = "";
     Connection dbCon;

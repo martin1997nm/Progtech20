@@ -47,7 +47,7 @@
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Component id="jButton1" max="32767" attributes="0"/>
                           <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                          <Component id="typeProduce" alignment="0" max="32767" attributes="0"/>
+                          <Component id="typeProduce" alignment="0" pref="0" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
                   </Group>
@@ -152,10 +152,10 @@
       <Properties>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
           <StringArray count="4">
-            <StringItem index="0" value="Orc"/>
-            <StringItem index="1" value="Orc Mage"/>
-            <StringItem index="2" value="Human"/>
-            <StringItem index="3" value="Human Paladin"/>
+            <StringItem index="0" value="Tesla Model 3"/>
+            <StringItem index="1" value="Tesla Model 3 Performance"/>
+            <StringItem index="2" value="Toyota Celica"/>
+            <StringItem index="3" value="Toyota Celica TS"/>
           </StringArray>
         </Property>
       </Properties>

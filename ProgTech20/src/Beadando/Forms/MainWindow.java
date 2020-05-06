@@ -3,7 +3,7 @@ package Beadando.Forms;
 
 import Beadando.Elektromos.TeslaModel3Gyar;
 import Beadando.Elektromos.TeslaGyar;
-import Beadando.BelsoEgesu.ToyotaCelicaGyar;
+import Beadando.BelsoEgesu.ToyotaCelicaTSGyar;
 import Beadando.BelsoEgesu.ToyotaGyar;
 import Beadando.Car;
 import Beadando.Factory;
@@ -67,7 +67,7 @@ public class MainWindow extends javax.swing.JFrame {
 
         jLabel3.setText("Mit gyártson?");
 
-        typeProduce.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Orc", "Orc Mage", "Human", "Human Paladin" }));
+        typeProduce.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Tesla Model 3", "Tesla Model 3 Performance", "Toyota Celica", "Toyota Celica TS" }));
         typeProduce.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 typeProduceActionPerformed(evt);
@@ -103,7 +103,7 @@ public class MainWindow extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jLabel3)
-                            .addComponent(typeProduce, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(typeProduce, 0, 1, Short.MAX_VALUE))
                         .addGap(54, 54, 54))))
         );
         layout.setVerticalGroup(
@@ -158,7 +158,7 @@ public class MainWindow extends javax.swing.JFrame {
                         case 0: factory = new TeslaGyar(); break;
                         case 1: factory = new TeslaModel3Gyar(); break;
                         case 2: factory = new ToyotaGyar(); break;
-                        case 3: factory = new ToyotaCelicaGyar(); break;
+                        case 3: factory = new ToyotaCelicaTSGyar(); break;
                     }
 
                     if(factory != null && amount >= 1) {

@@ -2,14 +2,14 @@ package Beadando.Elektromos;
 
 import Beadando.Car;
 import Beadando.Factory;
-import Beadando.Decorator.Suv;
+import Beadando.Decorator.Performance;
 
 
 public class TeslaModel3Gyar extends Factory{
 
     @Override
     public Car Make() {
-        return new Suv(new Tesla());
+        return new Performance(new TeslaModel3());
     }
     
 }
