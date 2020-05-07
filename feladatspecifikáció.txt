@@ -1,6 +1,6 @@
 Leírás:
 
-Egy olyan Java nyelven írt alkalmazást készítek, amiben Factory Method, Decorator tervezési mintákat alkalmazva tudunk sorozatgyártani különböző autókat 
+Egy olyan Java nyelven írt alkalmazást készítek, amiben Factory Method, Decorator valamint Singelton tervezési mintákat alkalmazva tudunk sorozatgyártani különböző autókat 
 (Elektromos/ Belső égésű). A gyártás idejét lehet befolyásolni hogy milyen gyorsan guruljanak le az autók a szallagról (Pl. 1 másodpercenként gyártson 1 új autót) 
 illetve azt is be lehet állítai hogy egyszerre hány darabot gyártson az adott autóból.
 
@@ -11,6 +11,7 @@ Hazsnálni kívánt eszközök:
 -tervezési minták:
   -Decorator: Ezzel a tervezési mintával hozok létre kiviteleket a különböző autók között. (egyszerű kivitel / sportváltozat)
   -FactoryMethod: Ezzel a tervezési mintával valósítjuk meg azt, hogy több autót tudjunk legyártani rövid időn belül.
+  -Singleton: A legyártott járművekről összesítést készítünk vele.
 
 -adatbázis:
        - MySQL
@@ -35,3 +36,9 @@ Főmenü: Található rajta 2 textfield, 1 jlist és 1 button és pár label
        
    - Gomb 
        - elindíthatjuk vele a gyártást.
+
+Unit test:
+  - JUnit segítségével hozom létre a teszteket mégpedig a következő formában:
+      -Tesztelem az összes olyan osztályt amelyek kiegészítő elemeket tartalmaznak és az általuk végzett feladatokat is eggyidejűleg elleőrizzük
+  - A legyártott járművek helyességének ellenőrzése.
+  - Különbözö felszerelségű autók tesztelése.
